@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Madam</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./pretty1.jpg" type="image/jpg">
+</head>
+
+<body>
+    <!-- Floating Background Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 style="font-family: Dancing Script;" class="mam">Aksitha Madam</h1>
+            <h1 class="typewriter" id="typewriter">Happy Birthday, Pretty! 💕</h1>
+            <p class="subtitle fade-in">Today is your day to be celebrated. Happy Birthday, pretty girl! 🎂</p>
+            <div class="floating-hearts">
+                <div class="heart">👍​</div>
+                <div class="heart">😏​</div>
+                <div class="heart">🤭​</div>
+                <div class="heart">​😜​</div>
+                <div class="heart">​👻​</div>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('gallery')">
+                Start the Celebration 🎉
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <div class="gallery-grid">
+                <div class="photo-card" data-aos="fade-up" data-delay="100">
+                    <div class="photo-container">
+                        <img src="./pretty1.jpg" alt="Beautiful moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Cute smile, magical moments 🐾</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="200">
+                    <div class="photo-container">
+                        <img src="./pretty2.jpg" alt="Sweet memory">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Smiling with the sunshine</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="300">
+                    <div class="photo-container">
+                        <img src="./pretty3.jpg" alt="Happy times">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">A happy little moment</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="400">
+                    <div class="photo-container">
+                        <img src="./pretty4.jpg" alt="Love moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Smiling through the day</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                    <div class="photo-container">
+                        <img src="./pretty5.jpg" alt="Beautiful day">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Feeling beautiful in tradition</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="600">
+                    <div class="photo-container">
+                        <img src="./pretty6.jpg" alt="Romantic moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">A beautiful princess moment</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Message Section -->
+    <section class="message-section" id="message">
+        <div class="container">
+            <div class="message-card">
+                <h2 class="message-title">A Special Message for You</h2>
+                <div class="message-content">
+                    <p class="message-text fade-in-text">
+                        Hi Madam,
+                        Today is all about celebrating you. Wishing a very happy birthday to a wonderful and pretty
+                        birthday girl. Your presence brings a unique energy, and the way you carry yourself always
+                        stands out
+                    </p>
+                    <p class="message-text fade-in-text">
+                        Honestly, sometimes when you are a little chirpy, angry, or showing attitude, it still suits you
+                        because it’s part of your real personality. But your smile is always the best thing to see
+                    </p>
+                    <p class="message-text fade-in-textmessage-text fade-in-text">
+                        My small suggestion for you: always do what you truly feel is right for your life. Listen to
+                        your heart and make your own decisions. And whatever the situation is, try not to let
+                        unnecessary third-person opinions affect your happiness.
+                    </p>
+                    <p class="message-signature fade-in-text">Enjoy your day, stay confident, and keep moving forward in
+                        life.
+                        Once again, Happy Birthday!</p>
+                </div>
+                <div class="message-hearts">
+                    <span class="heart-animation">💖</span>
+                    <span class="heart-animation">💕</span>
+                    <span class="heart-animation">💗</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>🤍 made with for pretty girl 🧚‍♀️</p>
+        </div>
+    </footer>
+   <audio id="bgmusic" loop>
+  <source src="song2.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.body.addEventListener("click", function () {
+  document.getElementById("bgmusic").play();
+});
+</script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
