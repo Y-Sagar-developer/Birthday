@@ -263,6 +263,9 @@ body {
     transform: translateY(50px);
     transition: all 0.6s ease;
 }
+.pre{
+    margin-top: -10px;
+}
 
 .section-title.aos-animate {
     opacity: 1;
